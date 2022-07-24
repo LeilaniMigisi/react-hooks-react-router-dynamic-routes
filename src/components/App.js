@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
-import NavBar from "./NavBar";
-import MoviesPage from "./MoviesPage";
+import NavBar from "/home/leilani/react-hooks-react-router-dynamic-routes/src/components/NavBar.js";
+import MoviesPage from "/home/leilani/react-hooks-react-router-dynamic-routes/src/components/MoviesPage.js"
 
 function App() {
   const [movies, setMovies] = useState({
